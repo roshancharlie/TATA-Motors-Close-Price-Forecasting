@@ -19,10 +19,10 @@ The data for TATA Motors stock is collected from yfinance library and the start 
 
 ## Exploratory Data Analysis
 The following exploratory data analysis techniques are used in this project:
-- Calculation of mean, median, standard deviation, max and min of closing price
+- Calculation of mean, median, standard deviation, max and min of closing price and opening price
 - Distribution of daily returns
 - Candlestick chart to show the variation between the highest and lowest returns
-- Moving average chart to show the trend of the closing price
+- Moving average chart to show the trend of the closing price and Opening Price
 - Correlation heatmap to show the relationship between different features
 - Technical indicators such as simple moving average and Bollinger Bands to identify trends and volatility.
 
