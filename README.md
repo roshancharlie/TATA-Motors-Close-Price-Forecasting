@@ -28,29 +28,25 @@ The following exploratory data analysis techniques are used in this project:
 
 ## Feature Engineering
 The following features are engineered in this project:
-- Change in price in terms of close and open
-- Weekly moving average
-- Bollinger Bands for the close price
-- Momentum
-- Log return
-- Log difference
+- Weekly moving average for the Open Price
+- Bollinger Bands for the Open Price
 
 ## Model Selection and Evaluation
 The following machine learning algorithms are used in this project:
 - Linear Regression
 - Random Forest Regressor
 - Support Vector Regression (SVR)
-
+### Optional
 Before training our models, we need to standardize our data to ensure that the scale of each feature is consistent. This is important because some algorithms are sensitive to the scale of the input data.To standardize the data, we will use the StandardScaler class from the scikit-learn library. This class will transform our data by subtracting the mean and dividing by the standard deviation.
 
 The models are trained and tested using train-test split and the evaluation metrics used are R2 score
-- R2 score for Linear Regression:  0.9986763282194503
-- R2 score for Random Forest:  0.9981670132674632
-- R2 score for Support Vector Regression:  0.9952447665510197
+- R2 score for linear regression: 0.9988672659694222
+- R2 score for random forest:  0.9986958832140901
+- R2 score for SVR:  0.9900765820020023
 
 The best performing model is selected based on the evaluation metrics.
 
-### Based on the R2 scores, it appears that the linear regression model performed the best with an R2 score of 0.9986763282194503. 
+### Based on the R2 scores, it appears that the linear regression model performed the best with an R2 score of 0.9988672659694222. 
 
 ## Model Prediction 
 Linear Regression model will be used to predict the closing price of Tata Motors stock.After that, we will evaluate the model by checking the R2 score, mean absolute error, and mean squared error.We will then use this model to make predictions on the future closing prices of Tata Motors stock.Then Plot The Actual and Prediction Data Using The Scatter Plot
