@@ -37,18 +37,18 @@ The following machine learning algorithms are used in this project:
 - Random Forest Regressor
 - Support Vector Regression (SVR)
 ### Optional
-Before training our models, we need to standardize our data to ensure that the scale of each feature is consistent. This is important because some algorithms are sensitive to the scale of the input data.To standardize the data, we will use the StandardScaler class from the scikit-learn library. This class will transform our data by subtracting the mean and dividing by the standard deviation.
+Before training our models, we need to standardize our data to ensure that the scale of each feature is consistent. This is important because some algorithms are sensitive to the scale of the input data.To standardize the data, we will use the MinMaxScaler class from the scikit-learn library. This class will transform our data by subtracting the mean and dividing by the standard deviation.
 
-The models are trained and tested using train-test split and the evaluation metrics used are R2 score
-- R2 score for linear regression:  0.9990185478383216
-- R2 score for random forest:  0.9988411527210747
-- R2 score for Support Vector R:  0.9981462501961098
+The models are trained and tested and the evaluation metrics used are R2 score
+- R2 score for linear regression:  0.9516679456767138
+- R2 score for random forest: 0.9298548382265217
+- R2 score for Support Vector R:  0.34399857626537955
 The best performing model is selected based on the evaluation metrics.
 
-### Based on the R2 scores, it appears that the linear regression model performed the best with an R2 score of 0.9990185478383216 
+### Based on the R2 scores, it appears that the linear regression model performed the best with an R2 score of 0.9516679456767138
 
 ## Model Prediction 
-Linear Regression model will be used to predict the closing price of Tata Motors stock.After that, we will evaluate the model by checking the R2 score, mean absolute error, and mean squared error.We will then use this model to make predictions on the future closing prices of Tata Motors stock.Then Plot The Actual and Prediction Data Using The Scatter Plot
+Linear Regression model will be used to predict the closing price of Tata Motors stock.After that, we will evaluate the model by checking the R2 score, mean absolute error, and mean squared error.We will then use this model to make predictions on the future closing prices of Tata Motors stock.Then Plot The Actual and Prediction Data Using The Scatter Plot and Inference Chart is Plotted to show all how predicted price support the momentum for long term
 
 
 <div align="center">
