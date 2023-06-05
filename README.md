@@ -1,7 +1,7 @@
 # TATA Motors Stock Close Price Forecasting
 
 ## Introduction
-This project aims to predict the closing price of TATA Motors stock using various machine learning algorithms and technical indicators. The data used for this project ranges from 1999 to 2023.
+This project aims to predict the closing price of TATA Motors stock using various machine learning algorithms and technical indicators. The data used for this project ranges from 2020 to 2023.
 
 ## Libraries Used
 The following libraries are used in this project:
